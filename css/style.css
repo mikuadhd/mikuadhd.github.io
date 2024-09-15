@@ -12,6 +12,11 @@ html {
     margin-top: 10%;
 }
 
+h1 {
+    font-size: 46px;
+}
+
+/*actually i have no idea where did i found this layout thing but it turned out kinda alright*/
 .layout {
     width: 100%;
   
