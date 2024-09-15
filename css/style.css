@@ -36,6 +36,14 @@ a:hover{
     text-shadow: rgb(255, 255, 255) 0px 0px 0px;
 }
 
+a:active {
+    text-decoration: none;
+  }
+
+a:visited {
+    text-decoration: none;
+  }
+
 /*actually i have no idea where did i found this layout thing but it turned out kinda alright*/
 .layout {
     width: 100%;
