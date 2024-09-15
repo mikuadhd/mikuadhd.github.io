@@ -16,6 +16,26 @@ h1 {
     font-size: 46px;
 }
 
+a {
+    color: #ffffff;
+    text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+    background-position-y: -0%;
+    background-image: linear-gradient(180deg, transparent 50%, rgb(255, 255, 255) 50%) !important;
+    transition: all 0.1s ease;
+    background-size: 0px;
+    background-size: auto 190%;
+    padding: 3px 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    background-position-y: 100%;
+    color: rgb(0, 0, 0);
+    transition: all 0.1s ease;
+    text-shadow: rgb(255, 255, 255) 0px 0px 0px;
+}
+
 /*actually i have no idea where did i found this layout thing but it turned out kinda alright*/
 .layout {
     width: 100%;
